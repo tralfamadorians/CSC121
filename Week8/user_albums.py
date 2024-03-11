@@ -9,10 +9,15 @@ def make_album(name, album, songs = None):
         artist['Number of Songs'] = songs
     return artist
 
-print(make_album('R.E.M.', 'Automatic for the People'))
+while True:
+    print("Type 'q' to quit.")
+    
+    name = input("What's the artist's name? ")
+    if name == 'q':
+        break
 
-print(make_album('Nirvana', 'In Utero'))
+    album = input("What's the title of the album? ")
+    if album == 'q':
+        break
 
-print(make_album('Nine Inch Nails', 'The Downward Spiral'))
-
-print(make_album('Nine Inch Nails', 'The Downward Spiral', 14))
+    print(make_album(name, album))
