@@ -4,6 +4,7 @@ medium shirt with the default message, and a shirt of any size with a different
 message.'''
 
 def make_shirt(size = 'large', text = 'I love Python'):
+    # Prints size and text on shirt
     print(f"Your shirt is a size {size.lower()} and your message is: \n {text}")
 
 make_shirt()

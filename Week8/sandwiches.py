@@ -5,6 +5,7 @@ wich that’s being ordered. Call the function three times, using a different nu
 ber of arguments each time.'''
 
 def sandwich(*toppings):
+    # Prints list of sandwich toppings
     print("Sandwich items:")
     for topping in toppings:
         print(topping)

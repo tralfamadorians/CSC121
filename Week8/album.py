@@ -11,6 +11,7 @@ one new function call that includes the number of songs on an album.'''
 
 
 def make_album(name, album, songs = None):
+    # Music dictionary that stores artist, album and number of songs, if available
     artist = {'Name' : name, 'Album' : album}
     if songs:
         artist['Number of Songs'] = songs

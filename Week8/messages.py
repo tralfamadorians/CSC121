@@ -4,6 +4,7 @@ list to a function called show_messages(), which prints each text message.'''
 messages = ['hi!', 'hello!', 'hey!']
 
 def show_messages(messages):
+    # Prints list of messages
     for message in messages:
         print(message)
 

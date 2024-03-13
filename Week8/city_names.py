@@ -5,6 +5,7 @@ Call your function with at least three city-country pairs, and print the values
 that are returned.'''
 
 def city_country(city, country):
+    # Prints city, country in proper title format
     print(f"{city.title()}, {country.title()}")
 
 city_country('asheville', 'United states')

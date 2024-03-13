@@ -8,12 +8,14 @@ messages = ['hi!', 'hello!', 'hey!']
 sent_messages= []
 
 def show_messages(messages):
+    # Prints messages one at a time
     for message in messages:
         print(message)
 
 show_messages(messages)
 
 def send_messages(messages, sent_messages):
+    # Prints messages as they are moved from messages to sent
     while messages:
         current_message = messages.pop()
         print(current_message)

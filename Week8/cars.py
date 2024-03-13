@@ -10,6 +10,7 @@ Print the dictionary that’s returned to make sure all the information was
 stored correctly.'''
 
 def car(manufacturer, model, **car):
+    # Car dictionary with make, model and any additional information
     car['make'] = manufacturer
     car['model'] = model
     return car

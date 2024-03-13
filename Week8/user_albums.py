@@ -4,6 +4,7 @@ information, call make_album() with the user’s input and print the dictionary
 that’s created. Be sure to include a quit value in the while loop.'''
 
 def make_album(name, album, songs = None):
+    # Make album dictionary with name, album and song count, if available 
     artist = {'Name' : name, 'Album' : album}
     if songs:
         artist['Number of Songs'] = songs
