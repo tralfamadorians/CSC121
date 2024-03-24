@@ -23,7 +23,7 @@ class Restaurant:
         # Announce that restaurant is open
         print(f"The {self.restaurant_name.title()} restaurant is open!")
 
-restaurant = Restaurant('Bangkok Garden', 'Thai')
+# restaurant = Restaurant('Bangkok Garden', 'Thai')
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+# restaurant.describe_restaurant()
+# restaurant.open_restaurant()
