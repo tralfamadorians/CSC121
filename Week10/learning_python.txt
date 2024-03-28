@@ -1,0 +1,3 @@
+In Python you can create programs.
+In Python you can makes modules to store code to use again.
+In Python you can do math.
