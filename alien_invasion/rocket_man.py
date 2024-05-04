@@ -48,6 +48,10 @@ class RocketMan:
             self.rocket.moving_right = True
         elif event.key == pygame.K_LEFT:
             self.rocket.moving_left = True
+        elif event.key == pygame.K_UP:
+            self.rocket.moving_up = True
+        elif event.key ==pygame.K_DOWN:
+            self.rocket.moving_down = True
         elif event.key == pygame.K_q:
             sys.exit()
 
@@ -57,6 +61,10 @@ class RocketMan:
             self.rocket.moving_right = False
         elif event.key == pygame.K_LEFT:
             self.rocket.moving_left = False
+        elif event.key == pygame.K_UP:
+            self.rocket.moving_up = False
+        elif event.key == pygame.K_DOWN:
+            self.rocket.moving_down = False
     
     def _update_screen(self):
             '''Update images on the screen, and flip to the new screen.'''
